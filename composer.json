@@ -33,7 +33,7 @@
     "repositories": [
         {
             "type": "path",
-            "url": "/amqp-reply",
+            "url": "../bundle",
             "options": {
                 "symlink": true
             }
@@ -42,7 +42,7 @@
     "autoload": {
         "psr-4": {
             "App\\": "src/",
-            "AmqpReply\\": "/amqp-reply/src"
+            "AmqpReply\\": "../bundle"
         }
     },
     "autoload-dev": {
